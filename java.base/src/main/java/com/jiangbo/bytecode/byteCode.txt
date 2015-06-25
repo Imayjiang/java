@@ -1,0 +1,110 @@
+Classfile /D:/programming/java/src/study.java.core/java.base/target/classes/com/jiangbo/bytecode/ByteCodeSourceFile.class
+  Last modified 2014-6-18; size 858 bytes
+  MD5 checksum 421b04abcf55ed493aa1f8ce0916fed8
+  Compiled from "ByteCodeSourceFile.java"
+public class com.jiangbo.bytecode.ByteCodeSourceFile extends com.jiangbo.bytecode.SourceSuperClazz implements com.jiangbo.bytecode.SourceInterface
+  SourceFile: "ByteCodeSourceFile.java"
+  minor version: 0
+  major version: 51
+  flags: ACC_PUBLIC, ACC_SUPER
+  
+Constant pool:
+   #1 = Methodref          #8.#32         //  com/jiangbo/bytecode/SourceSuperClazz."<init>":()V
+   #2 = Class              #33            //  java/lang/Object
+   #3 = Methodref          #2.#32         //  java/lang/Object."<init>":()V
+   #4 = Fieldref           #7.#34         //  com/jiangbo/bytecode/ByteCodeSourceFile.FIELD_2:Ljava/lang/Object;
+   #5 = Fieldref           #35.#36        //  java/lang/System.out:Ljava/io/PrintStream;
+   #6 = Methodref          #37.#38        //  java/io/PrintStream.println:(I)V
+   #7 = Class              #39            //  com/jiangbo/bytecode/ByteCodeSourceFile
+   #8 = Class              #40            //  com/jiangbo/bytecode/SourceSuperClazz
+   #9 = Class              #41            //  com/jiangbo/bytecode/SourceInterface
+  #10 = Utf8               FILED_1
+  #11 = Utf8               I
+  #12 = Utf8               ConstantValue
+  #13 = Integer            1
+  #14 = Utf8               FIELD_2
+  #15 = Utf8               Ljava/lang/Object;
+  #16 = Utf8               <init>
+  #17 = Utf8               ()V
+  #18 = Utf8               Code
+  #19 = Utf8               LineNumberTable
+  #20 = Utf8               LocalVariableTable
+  #21 = Utf8               this
+  #22 = Utf8               Lcom/jiangbo/bytecode/ByteCodeSourceFile;
+  #23 = Utf8               doNothing
+  #24 = Utf8               (ILjava/lang/Object;)V
+  #25 = Utf8               param1
+  #26 = Utf8               param2
+  #27 = Utf8               argA
+  #28 = Utf8               argB
+  #29 = Utf8               result
+  #30 = Utf8               SourceFile
+  #31 = Utf8               ByteCodeSourceFile.java
+  #32 = NameAndType        #16:#17        //  "<init>":()V
+  #33 = Utf8               java/lang/Object
+  #34 = NameAndType        #14:#15        //  FIELD_2:Ljava/lang/Object;
+  #35 = Class              #42            //  java/lang/System
+  #36 = NameAndType        #43:#44        //  out:Ljava/io/PrintStream;
+  #37 = Class              #45            //  java/io/PrintStream
+  #38 = NameAndType        #46:#47        //  println:(I)V
+  #39 = Utf8               com/jiangbo/bytecode/ByteCodeSourceFile
+  #40 = Utf8               com/jiangbo/bytecode/SourceSuperClazz
+  #41 = Utf8               com/jiangbo/bytecode/SourceInterface
+  #42 = Utf8               java/lang/System
+  #43 = Utf8               out
+  #44 = Utf8               Ljava/io/PrintStream;
+  #45 = Utf8               java/io/PrintStream
+  #46 = Utf8               println
+  #47 = Utf8               (I)V
+
+{
+  public com.jiangbo.bytecode.ByteCodeSourceFile();
+    flags: ACC_PUBLIC
+    Code:
+      stack=3, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #1                  // Method com/jiangbo/bytecode/SourceSuperClazz."<init>":()V
+         4: aload_0
+         5: new           #2                  // class java/lang/Object
+         8: dup
+         9: invokespecial #3                  // Method java/lang/Object."<init>":()V
+        12: putfield      #4                  // Field FIELD_2:Ljava/lang/Object;
+        15: return
+      LineNumberTable:
+        line 34: 0
+        line 39: 4
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+          0      16     0    this   Lcom/jiangbo/bytecode/ByteCodeSourceFile;
+
+
+  public void doNothing(int, java.lang.Object);
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=6, args_size=3
+         0: iconst_1
+         1: istore_3
+         2: iconst_2
+         3: istore        4
+         5: iconst_3
+         6: istore        5
+         8: getstatic     #5                  // Field java/lang/System.out:Ljava/io/PrintStream;
+        11: iconst_3
+        12: invokevirtual #6                  // Method java/io/PrintStream.println:(I)V
+        15: return
+      LineNumberTable:
+        line 43: 0
+        line 44: 2
+        line 45: 5
+        line 46: 8
+        line 47: 15
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+         0      16     0  this   Lcom/jiangbo/bytecode/ByteCodeSourceFile;
+
+         0      16     1 param1   I
+         0      16     2 param2   Ljava/lang/Object;
+         2      14     3  argA   I
+         5      11     4  argB   I
+         8       8     5 result   I
+}

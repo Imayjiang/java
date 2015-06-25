@@ -1,0 +1,25 @@
+java collection types:
+ <li>set</li>
+ <li>map</li>
+ <li>list</li>
+
+
+java data types:
+number
+    primitive types(refer:http://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
+        byte
+        short
+        int
+        long
+        float
+        double
+boolean(primitive type)
+char(primitive type)
+
+enum
+array
+set
+list
+map
+object
+null

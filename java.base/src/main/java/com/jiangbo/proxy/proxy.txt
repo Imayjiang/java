@@ -1,0 +1,11 @@
+1.java的动态代理只针对interface
+2.java的proxy生成的proxyInstance是一个实现了给定interface并且继承了Proxy的类，这个类
+  实现hashCode、equals、toString等几大方法，同时实现了interface的所有methods并代理给
+  InvocationHandler去实现。传递给InvocationHandler的proxy就是该proxyInstance
+
+
+可以看下Proxy是如何生成ProxyInstance的，知道ProxyInstance的构成就能了解Proxy的原理了
+
+
+扩展，java的动态代理可以用来实现aop，目前aop的相关框架有Cglib、AspectJ，Spring的aop实现，
+底层是使用java动态代理或者上述两个框架

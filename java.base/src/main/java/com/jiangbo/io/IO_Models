@@ -1,0 +1,23 @@
+IO的环节中，我们需要先理解几个概念：
+1.asynchronous:
+2.synchronous:
+3.blocking:     simply it means the process turn to be waiting
+4.non-blocking:
+
+A synchronous I/O operation causes the requesting process to be blocked until
+that  I/O operation completes;
+An asynchronous I/O operation does not cause the requesting process to be blocked;
+
+
+I/O models(core concept:用户空间和用户进程、内核空间和内核进程)
+•blocking I/O: blocked all the way
+
+•non-blocking I/O: if no data in buffer, immediate returns EWOULDBLOCK
+
+•I/O multiplexing (select and poll): blocked separately in wait and copy
+
+•signal driven I/O (SIGIO): non-blocked in wait but blocked in copy
+ (signaled when I/O can be initiated)
+
+•asynchronous I/O (aio_): non-blocked all the way
+ (signaled when I/O is complete)

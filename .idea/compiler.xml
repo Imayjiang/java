@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="?*.properties" />
+      <entry name="?*.xml" />
+      <entry name="?*.gif" />
+      <entry name="?*.png" />
+      <entry name="?*.jpeg" />
+      <entry name="?*.jpg" />
+      <entry name="?*.html" />
+      <entry name="?*.dtd" />
+      <entry name="?*.tld" />
+      <entry name="?*.ftl" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="java.base" />
+        <module name="java.collection" />
+        <module name="java.editor" />
+        <module name="java.instrument" />
+        <module name="java.jaf" />
+        <module name="java.jta" />
+        <module name="java.persistence" />
+        <module name="java.rpc" />
+        <module name="javax.jms" />
+        <module name="javax.management" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="java.base" target="1.6" />
+      <module name="java.collection" target="1.6" />
+      <module name="java.editor" target="1.6" />
+      <module name="java.instrument" target="1.6" />
+      <module name="java.jaf" target="1.6" />
+      <module name="java.jta" target="1.6" />
+      <module name="java.persistence" target="1.6" />
+      <module name="java.rpc" target="1.6" />
+      <module name="javax.jms" target="1.6" />
+      <module name="javax.management" target="1.6" />
+      <module name="study.java.core" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
+

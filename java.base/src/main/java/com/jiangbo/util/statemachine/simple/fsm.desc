@@ -1,0 +1,22 @@
+状态机的构成：
+
+@see http://en.wikipedia.org/wiki/Finite-state_machine
+--状态集(state collection)
+--input table(maybe represented by event)
+--transition集
+	-from state
+	-to state
+	-event/rule which trigger the transition work
+	-result:the current state will be state:to
+--start state
+--acceptable input?
+
+normal flow:
+    state:start——>on(Event)——>(from:state>>)to(State)
+        ...on(Event)——>(from:state>>)to(state:final)
+
+大多数情况下，在进入/退出某个state，开始transition的时候，
+我们都需要能额外有operation:
+--whenEnter
+--whenLeave
+--whenEvent      //event was just trigger

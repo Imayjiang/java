@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd ">
+
+    <!--configure wangTing-->
+    <bean class="buy.bundle.vertical.wangting.WangTingNs"/>
+    <bean class="buy.bundle.vertical.wangting.WangTingOrderLineExtensionSpi"/>
+    <bean class="buy.bundle.vertical.wangting.WtOrderLinePriceSpi"/>
+    <bean class="buy.bundle.vertical.wangting.WangTingOrderLineProPrice"/>
+
+    <!--configure groupBuy-->
+    <bean class="buy.bundle.vertical.groupbuy.GroupBuyNs"/>
+    <bean class="buy.bundle.vertical.groupbuy.GroupBuyOrderLinePrice"/>
+    <bean class="buy.bundle.vertical.groupbuy.GroupBuyOrderLineProPrice"/>
+
+</beans>

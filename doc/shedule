@@ -1,0 +1,16 @@
+java基础
+1. collection
+    数据的基本类型 && 位操作
+	集合体系(set、map、list、array、工具类)
+	thread-safe and non-thread-safe
+	hashMap的工作原理
+2. i/o
+3. multiThreading
+    *对于线程池，线程盈满在等待可能带来的问题
+    *
+4. networking
+5. classLoader
+6. proxy
+7. juc
+8. jvm
+

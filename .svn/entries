@@ -1,0 +1,145 @@
+10
+
+dir
+2
+https://taobao-fb4f31a9.taobao.ali.com/svn/java-core-learning/trunk/study.java.core
+https://taobao-fb4f31a9.taobao.ali.com/svn/java-core-learning
+
+
+
+2013-01-09T03:35:00.802033Z
+2
+jiangbo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b9c8fd9c-fe0d-074e-8ec0-c4e2e1de24c1
+
+
+
+
+
+
+0
+
+doc
+dir
+
+
+
+add
+
+java.collection
+dir
+
+java.editor
+dir
+
+java.instrument
+dir
+
+java.jaf
+dir
+
+java.jta
+dir
+
+java.persistence
+dir
+
+java.reflect
+dir
+
+java.rpc
+dir
+
+javax.jms
+dir
+
+javax.management
+dir
+
+javax.servlet
+dir
+
+
+
+delete
+
+pom.xml
+file
+3
+
+
+
+2013-01-08T12:24:23.022000Z
+63b723bc95f2f1fe57b71f44cd034ede
+2013-01-11T05:28:54.486966Z
+3
+jiangbo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ignore files
+
+1331
+
+study.java.core.iml
+file
+0
+
+
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ignore files
+

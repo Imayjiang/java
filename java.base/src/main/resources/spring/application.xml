@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd"
+       default-autowire="byName">
+
+
+    <bean id="springBeanLiftcycle" class="com.spring.SpringBeanLiftcycle"/>
+
+    <bean id="injectFieldBean" class="com.spring.InjectFieldBean"/>
+    <!--<bean id="persistenBean" class="com.spring.PersistenBean"/>-->
+    <!--<bean class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">-->
+        <!--<property name="targetClass"-->
+                  <!--value="com.spring.BeanFactoryHolder"/>-->
+        <!--<property name="targetMethod" value="init"/>-->
+        <!--<property name="arguments">-->
+            <!--<bean class="org.springframework.beans.factory.config.AbstractFactoryBean">-->
+
+            <!--</bean>-->
+            <!--&lt;!&ndash;<bean class="com.spring.SpringContextAware"/>&ndash;&gt;-->
+        <!--</property>-->
+    <!--</bean>-->
+</beans>

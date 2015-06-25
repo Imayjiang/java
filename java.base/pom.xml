@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.jiangbo.study</groupId>
+        <artifactId>study.java.core</artifactId>
+        <version>1.0.0-SNAPSHORT</version>
+    </parent>
+    <artifactId>java.base</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <name>java.base</name>
+    <url>http://maven.apache.org</url>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>au.com.datasymphony</groupId>
+            <artifactId>EasyFlow</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.taobao.common.ip</groupId>
+            <artifactId>common-ip</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.tmall.industry</groupId>
+            <artifactId>tmall-industry-datacenter-itemdatasource.common</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.taobao.common.ip</groupId>
+            <artifactId>common-ip</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.taobao.common.nbeanutils</groupId>
+            <artifactId>common-nbeanutils</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>javolution</groupId>
+            <artifactId>javolution</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>storm</groupId>
+            <artifactId>storm</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis-spring</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.ehcache</groupId>
+            <artifactId>ehcache</artifactId>
+        </dependency>
+
+    </dependencies>
+</project>
